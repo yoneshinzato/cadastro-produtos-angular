@@ -13,7 +13,8 @@ import  { MatSidenavModule} from '@angular/material/sidenav'
 import  { MatCardModule} from '@angular/material/card'
 import  { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './components/views/home/home.component';
-import { ProductCrudComponent } from './components/views/product-crud/product-crud.component'
+import { ProductCrudComponent } from './components/views/product-crud/product-crud.component';
+import { RedDirective } from './directives/red.directive'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ProductCrudComponent } from './components/views/product-crud/product-cr
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    RedDirective
   ],
   imports: [
     BrowserModule,
