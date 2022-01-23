@@ -16,8 +16,9 @@
       "price": 5000.89
     },
     {
-      "name": "Banana de teste",
-      "price": 125.98
+      "name": "Lápis preto",
+      "price": "22",
+      "id": 4
     }
   ]
 }
