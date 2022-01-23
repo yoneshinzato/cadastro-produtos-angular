@@ -19,9 +19,14 @@ export class ProductService {
       verticalPosition: "top"
     })
   }
-  //insere um novo produto no backend
+  //insere um novo produto no backend POST
   create(product: Product): Observable<Product> {
     return this.http.post<Product>(this.baseUrl, product)
+  }
+
+  //interagir com backend pra ler os dados de produtos GET
+  read(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseUrl)
   }
 
 
