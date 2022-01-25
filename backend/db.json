@@ -19,6 +19,11 @@
       "name": "Lápis preto",
       "price": "22",
       "id": 4
+    },
+    {
+      "name": "Celular Xiaomi",
+      "price": "1255",
+      "id": 5
     }
   ]
 }
