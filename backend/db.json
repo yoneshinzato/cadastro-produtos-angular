@@ -24,6 +24,11 @@
       "name": "Celular Xiaomi",
       "price": "1255",
       "id": 5
+    },
+    {
+      "name": "h",
+      "price": "55",
+      "id": 6
     }
   ]
 }
