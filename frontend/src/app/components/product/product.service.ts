@@ -30,12 +30,12 @@ export class ProductService {
   }
 
   //interagir com backend para ler por id - get de um produto
-  readById(id: string): Observable<Product> {
+  readById(id: any): Observable<Product> {
     const url = `${this.baseUrl}/${id}`
     return this.http.get<Product>(url);
   }
 
-  //atualização faz PUT
+  //atualização update faz PUT
   update(product: Product): Observable<Product> {
     const url = `${this.baseUrl}/${product.id}`
     return this.http.put<Product>(url, product)

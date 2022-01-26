@@ -8,7 +8,7 @@
     {
       "id": 2,
       "name": "Notebook MAC Pro",
-      "price": 12000.89
+      "price": "19000.89"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
     },
     {
       "name": "Celular Xiaomi",
-      "price": "1255",
+      "price": "1766",
       "id": 5
     },
     {
